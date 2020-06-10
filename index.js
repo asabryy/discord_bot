@@ -47,7 +47,7 @@ const {
 	prefix
 } = require('./package.json');
 
-const token = 'NzAyOTg4Mzg0MTU4NzQ0NjE2.XqIC_g.m9SuxLYcSCKmQSuOeotID4_IYRw';
+const token = 'NzAyOTg4Mzg0MTU4NzQ0NjE2.XuBfcw.qNpE_a9buoTvMaZdK3eZOMnvZdE';
 
 client.login(token);
 
