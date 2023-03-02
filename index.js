@@ -47,7 +47,7 @@ const {
 	prefix
 } = require('./package.json');
 
-const token = 'NzAyOTg4Mzg0MTU4NzQ0NjE2.XuBfcw.qNpE_a9buoTvMaZdK3eZOMnvZdE';
+const token = 'TOKEN-HERE';
 
 client.login(token);
 
@@ -75,7 +75,7 @@ client.on('ready', ()=>{
         // List all channels
         guild.channels.cache.forEach((channel) => {
             console.log(` -- ${channel.name} (${channel.type}) - ${channel.id}`)
-            if(channel.name === "general" && guild.name === "Overwatch And Fuck NIzar"){
+            if(channel.name === "general" && guild.name === "Overwatch"){
                 theChannel = channel.id;
             }
             if(channel.name === "CS:GO"){
